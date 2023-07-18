@@ -2,20 +2,20 @@
 
 @opposite: contrast(@syntax-background-color);
 
-.indent-guide-improved {
+.indent-guide-plus {
   width: 1px;
   z-index: 100;
   position: absolute;
 }
 
-.indent-guide-improved {
+.indent-guide-plus {
   background-color: @syntax-indent-guide-color;
 }
 
-.indent-guide-improved.indent-guide-stack {
+.indent-guide-plus.indent-guide-stack {
   background-color: mix(@syntax-indent-guide-color, @opposite, 60%);
 }
 
-.indent-guide-improved.indent-guide-stack.indent-guide-active {
+.indent-guide-plus.indent-guide-stack.indent-guide-active {
   background-color: mix(@syntax-indent-guide-color, @opposite, 10%);
 }
