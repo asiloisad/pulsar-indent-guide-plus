@@ -4,7 +4,7 @@
   "version": "1.4.13",
   "description": "The indent guide, but more correctly and understandably",
   "engines": {
-    "atom": ">=1.15.0 <2.0.0"
+    "atom": ">=1.100.0 <2.0.0"
   },
   "keywords": [
     "bacadra",
@@ -12,8 +12,8 @@
     "guide"
   ],
   "readmeFilename": "README.md",
-  "homepage": "https://github.com/bacadra/atom-indent-guide-plus",
-  "url": "https://github.com/bacadra/atom-indent-guide-plus/issues",
-  "repository": "https://github.com/bacadra/atom-indent-guide-plus",
+  "homepage": "https://github.com/bacadra/pulsar-indent-guide-plus",
+  "url": "https://github.com/bacadra/pulsar-indent-guide-plus/issues",
+  "repository": "https://github.com/bacadra/pulsar-indent-guide-plus",
   "license": "MIT"
 }

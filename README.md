@@ -1,17 +1,17 @@
 # indent-guide-plus
 
 <p align="center">
-  <a href="https://github.com/bacadra/atom-indent-guide-plus/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/atom-indent-guide-plus?style=for-the-badge&label=Latest&color=blue" alt="Latest">
+  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/tags">
+  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-indent-guide-plus?style=for-the-badge&label=Latest&color=blue" alt="Latest">
   </a>
-  <a href="https://github.com/bacadra/atom-indent-guide-plus/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/atom-indent-guide-plus?style=for-the-badge&color=blue" alt="OpenIssues">
+  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/issues">
+  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-indent-guide-plus?style=for-the-badge&color=blue" alt="OpenIssues">
   </a>
-  <a href="https://github.com/bacadra/atom-indent-guide-plus/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/atom-indent-guide-plus?style=for-the-badge&color=blue" alt="Language">
+  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/package.json">
+  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-indent-guide-plus?style=for-the-badge&color=blue" alt="Language">
   </a>
-  <a href="https://github.com/bacadra/atom-indent-guide-plus/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/atom-indent-guide-plus?style=for-the-badge&color=blue" alt="Licence">
+  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/bacadra/pulsar-indent-guide-plus?style=for-the-badge&color=blue" alt="Licence">
   </a>
 </p>
 
@@ -19,25 +19,9 @@ The indent guide, but more correctly and understandably.
 
 ## Installation
 
-### Atom Text Editor
+To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) in the Install pane of the Pulsar settings or run `ppm install indent-guide-plus`.
 
-The official Atom packages store has been [disabled](https://github.blog/2022-06-08-sunsetting-atom/). To obtain the latest version, please run the following shell command:
-
-```shell
-apm install bacadra/atom-indent-guide-plus
-```
-
-This will allow you to directly download the package from the GitHub repository.
-
-### Pulsar Text Editor
-
-The package is compatible with [Pulsar](https://pulsar-edit.dev/) and can be installed using the following command:
-
-```shell
-ppm install bacadra/atom-indent-guide-plus
-```
-
-Alternatively, you can directly install [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) from the Pulsar package store.
+Alternatively, run `ppm install bacadra/pulsar-indent-guide-plus` to install a package directly from Github repository.
 
 ## Features
 
@@ -48,6 +32,22 @@ Alternatively, you can directly install [indent-guide-plus](https://web.pulsar-e
 ## Customization
 
 You can customize the indent guides by using custom CSS. Here are some examples:
+
+* A subtle colors:
+
+```less
+.indent-guide-plus {
+  background: rgba(158, 158, 158, 0.15);
+  &.indent-guide-stack {
+    background: rgba(158, 158, 158, 0.15);
+    &.indent-guide-active {
+      background: rgba(1, 162, 226, 0.15);
+    }
+  }
+}
+```
+
+* A hard contrast colors:
 
 ```less
 .indent-guide-plus {

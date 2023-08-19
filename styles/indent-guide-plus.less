@@ -6,16 +6,11 @@
   width: 1px;
   z-index: 100;
   position: absolute;
-}
-
-.indent-guide-plus {
   background-color: @syntax-indent-guide-color;
-}
-
-.indent-guide-plus.indent-guide-stack {
-  background-color: mix(@syntax-indent-guide-color, @opposite, 60%);
-}
-
-.indent-guide-plus.indent-guide-stack.indent-guide-active {
-  background-color: mix(@syntax-indent-guide-color, @opposite, 10%);
+  &.indent-guide-stack {
+    background-color: mix(@syntax-indent-guide-color, @opposite, 60%);
+    &.indent-guide-active{
+      background-color: mix(@syntax-indent-guide-color, @opposite, 10%);
+    }
+  }
 }
