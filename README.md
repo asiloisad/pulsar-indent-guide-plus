@@ -15,6 +15,8 @@
   </a>
 </p>
 
+![demo](https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/assets/demo.gif?raw=true)
+
 The indent guide, but more correctly and understandably.
 
 ## Installation
@@ -27,13 +29,13 @@ Alternatively, you can run `ppm install bacadra/pulsar-indent-guide-plus` to ins
 
 * Active guide and stack guides are emphasized.
 * Guides break just before the trailing blank lines.
-* Original "Show Indent Guide" feature is automatically switched off when this package
+* Original `Show Indent Guide` feature is automatically switched off when this package.
 
 ## Customization
 
 You can customize the indent guides by using custom CSS. Here are some examples:
 
-* A subtle colors:
+* a subtle colors:
 
 ```less
 .indent-guide-plus {
@@ -47,7 +49,7 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 }
 ```
 
-* A hard contrast colors:
+* a hard contrast colors:
 
 ```less
 .indent-guide-plus {
