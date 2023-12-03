@@ -21,9 +21,7 @@ The indent guide, but more correctly and understandably.
 
 ## Installation
 
-To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) in the Install pane of the Pulsar settings or run `ppm install indent-guide-plus`.
-
-Alternatively, you can run `ppm install bacadra/pulsar-indent-guide-plus` to install a package directly from the Github repository.
+To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) in the Install pane of the Pulsar settings or run `ppm install indent-guide-plus`. Alternatively, you can run `ppm install bacadra/pulsar-indent-guide-plus` to install a package directly from the Github repository.
 
 ## Features
 
