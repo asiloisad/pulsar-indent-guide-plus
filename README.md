@@ -1,20 +1,5 @@
 # indent-guide-plus
 
-<p align="center">
-  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/tags">
-  <img src="https://img.shields.io/github/v/tag/bacadra/pulsar-indent-guide-plus?style=for-the-badge&label=Latest&color=blue" alt="Latest">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/issues">
-  <img src="https://img.shields.io/github/issues-raw/bacadra/pulsar-indent-guide-plus?style=for-the-badge&color=blue" alt="OpenIssues">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/package.json">
-  <img src="https://img.shields.io/github/languages/top/bacadra/pulsar-indent-guide-plus?style=for-the-badge&color=blue" alt="Language">
-  </a>
-  <a href="https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/LICENSE">
-  <img src="https://img.shields.io/github/license/bacadra/pulsar-indent-guide-plus?style=for-the-badge&color=blue" alt="Licence">
-  </a>
-</p>
-
 ![demo](https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/assets/demo.gif?raw=true)
 
 The indent guide, but more correctly and understandably.
@@ -25,15 +10,15 @@ To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar
 
 ## Features
 
-* Active guide and stack guides are emphasized.
-* Guides break just before the trailing blank lines.
-* Original `Show Indent Guide` feature is automatically switched off when this package.
+- Active guide and stack guides are emphasized.
+- Guides break just before the trailing blank lines.
+- Original `Show Indent Guide` feature is automatically switched off when this package.
 
 ## Customization
 
 You can customize the indent guides by using custom CSS. Here are some examples:
 
-* a subtle colors:
+- a subtle colors:
 
 ```less
 .indent-guide-plus {
@@ -47,7 +32,7 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 }
 ```
 
-* a hard contrast colors:
+- a hard contrast colors:
 
 ```less
 .indent-guide-plus {
@@ -61,7 +46,7 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 }
 ```
 
-# Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
+# Contributing
 
 If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
 
