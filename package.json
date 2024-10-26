@@ -2,7 +2,7 @@
   "name": "indent-guide-plus",
   "main": "./lib/main",
   "version": "1.4.16",
-  "description": "The indent guide, but more correctly and understandably",
+  "description": "An improved indentation guide of text-editor",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },

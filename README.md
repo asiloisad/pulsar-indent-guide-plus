@@ -1,8 +1,8 @@
 # indent-guide-plus
 
-![demo](https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/assets/demo.gif?raw=true)
+An improved indentation guide of text-editor.
 
-The indent guide, but more correctly and understandably.
+![demo](https://github.com/bacadra/pulsar-indent-guide-plus/blob/master/assets/demo.gif?raw=true)
 
 ## Installation
 
@@ -12,7 +12,7 @@ To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar
 
 - Active guide and stack guides are emphasized.
 - Guides break just before the trailing blank lines.
-- Original `Show Indent Guide` feature is automatically switched off when this package.
+- Built-in indend-guide feature is switched off.
 
 ## Customization
 
@@ -48,8 +48,8 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 
 # Contributing
 
-If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
 
 ## Notes
 
-The package is fork of [indent-guide-improved](https://github.com/harai/indent-guide-improved), but decaffeinated and fixed depractation.
+The package is fork of [indent-guide-improved](https://github.com/harai/indent-guide-improved), but decaffeinated and fixed.
