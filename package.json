@@ -1,19 +1,16 @@
 {
   "name": "indent-guide-plus",
-  "main": "./lib/main",
-  "version": "1.4.17",
   "description": "An improved indentation guide of text-editor",
-  "engines": {
-    "atom": ">=1.100.0 <2.0.0"
-  },
+  "repository": "https://github.com/bacadra/pulsar-indent-guide-plus",
   "keywords": [
     "bacadra",
     "indent",
     "guide"
   ],
-  "readmeFilename": "README.md",
-  "homepage": "https://github.com/bacadra/pulsar-indent-guide-plus",
-  "url": "https://github.com/bacadra/pulsar-indent-guide-plus/issues",
-  "repository": "https://github.com/bacadra/pulsar-indent-guide-plus",
-  "license": "MIT"
+  "version": "1.4.17",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },
+  "main": "./lib/main"
 }
