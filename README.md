@@ -23,11 +23,11 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 
 ```less
 .indent-guide-plus {
-  background: rgba(158, 158, 158, 0.15);
+  background: rgba(158, 158, 158, 0.25);
   &.indent-guide-stack {
-    background: rgba(158, 158, 158, 0.15);
+    background: rgba(158, 158, 158, 0.50);
     &.indent-guide-active {
-      background: rgba(1, 162, 226, 0.15);
+      background: rgba(1, 162, 226, 0.50);
     }
   }
 }
