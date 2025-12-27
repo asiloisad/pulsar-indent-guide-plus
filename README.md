@@ -1,19 +1,17 @@
 # indent-guide-plus
 
-An improved indentation guide of text-editor.
+An improved indentation guide of text-editor. Fork of [indent-guide-improved](https://github.com/harai/indent-guide-improved).
 
 ![demo](https://github.com/asiloisad/pulsar-indent-guide-plus/blob/master/assets/demo.gif?raw=true)
-
-## Installation
-
-To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) in the Install pane of the Pulsar settings or run `ppm install indent-guide-plus`. Alternatively, you can run `ppm install asiloisad/pulsar-indent-guide-plus` to install a package directly from the GitHub repository.
-
-## Features
 
 - Active guide and stack guides are emphasized.
 - Guides break just before the trailing blank lines.
 - Built-in indent-guide feature is switched off.
 - CSS available by indent depth.
+
+## Installation
+
+To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) in the Install pane of the Pulsar settings or run `ppm install indent-guide-plus`. Alternatively, you can run `ppm install asiloisad/pulsar-indent-guide-plus` to install a package directly from the GitHub repository.
 
 ## Customization
 
@@ -84,7 +82,3 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 # Contributing
 
 Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
-
-## Notes
-
-The package is fork of [indent-guide-improved](https://github.com/harai/indent-guide-improved), but decaffeinated and fixed.
