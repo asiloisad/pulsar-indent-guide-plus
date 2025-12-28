@@ -1,25 +1,27 @@
 # indent-guide-plus
 
-An improved indentation guide of text-editor.
+Enhanced indentation guides with active scope highlighting.
 
 ![demo](https://github.com/asiloisad/pulsar-indent-guide-plus/blob/master/assets/demo.gif?raw=true)
+
+Fork of [indent-guide-improved](https://github.com/harai/indent-guide-improved).
+
+## Features
+
+- **Active highlighting**: Current guide and stack are visually emphasized.
+- **Smart breaks**: Guides break before trailing blank lines.
+- **Depth-based CSS**: Style guides by indentation level.
+- **Auto-disable**: Built-in indent-guide is automatically switched off.
 
 ## Installation
 
 To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) in the Install pane of the Pulsar settings or run `ppm install indent-guide-plus`. Alternatively, you can run `ppm install asiloisad/pulsar-indent-guide-plus` to install a package directly from the GitHub repository.
 
-## Features
-
-- Active guide and stack guides are emphasized.
-- Guides break just before the trailing blank lines.
-- Built-in indent-guide feature is switched off.
-- CSS available by indent depth.
-
 ## Customization
 
-You can customize the indent guides by using custom CSS. Here are some examples:
+The style can be adjusted according to user preferences in the `styles.less` file:
 
-- a subtle colors:
+- e.g. subtle colors:
 
 ```less
 .indent-guide-plus {
@@ -33,7 +35,7 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 }
 ```
 
-- a hard contrast colors:
+- e.g. hard contrast colors:
 
 ```less
 .indent-guide-plus {
@@ -47,7 +49,7 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 }
 ```
 
-- colorful lines:
+- e.g. colorful lines:
 
 ```less
 .indent-guide-plus {
@@ -81,10 +83,6 @@ You can customize the indent guides by using custom CSS. Here are some examples:
 }
 ```
 
-# Contributing
+## Contributing
 
-Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
-
-## Notes
-
-The package is fork of [indent-guide-improved](https://github.com/harai/indent-guide-improved), but decaffeinated and fixed.
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback's welcome!
