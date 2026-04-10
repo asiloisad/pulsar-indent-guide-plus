@@ -11,5 +11,12 @@
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
   },
-  "main": "./lib/main"
+  "main": "./lib/main",
+  "configSchema": {
+    "cursorAwareActive": {
+      "type": "boolean",
+      "default": true,
+      "description": "When enabled, the active guide is determined by the cursor column position. When disabled, the deepest guide on the cursor line is always marked active."
+    }
+  }
 }

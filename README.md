@@ -9,13 +9,21 @@ Fork of [indent-guide-improved](https://github.com/harai/indent-guide-improved).
 ## Features
 
 - **Active highlighting**: Current guide and stack are visually emphasized.
+- **Cursor-aware active guide**: The active guide is determined by the cursor column position, not just the line indent. Moving the cursor left deactivates deeper guides. Can be toggled via command or configuration.
+- **Multi-cursor support**: Each cursor independently activates its own guide.
 - **Smart breaks**: Guides break before trailing blank lines.
-- **Depth-based CSS**: Style guides by indentation level.
+- **Depth-based CSS**: Style guides by indentation level using the `[depth]` attribute.
 - **Auto-disable**: Built-in indent-guide is automatically switched off.
 
 ## Installation
 
 To install `indent-guide-plus` search for [indent-guide-plus](https://web.pulsar-edit.dev/packages/indent-guide-plus) in the Install pane of the Pulsar settings or run `ppm install indent-guide-plus`. Alternatively, you can run `ppm install asiloisad/pulsar-indent-guide-plus` to install a package directly from the GitHub repository.
+
+## Commands
+
+Commands available in `atom-workspace`:
+
+- `indent-guide-plus:toggle-cursor-aware-active`: toggle cursor-aware active guide mode for all editors.
 
 ## Customization
 
